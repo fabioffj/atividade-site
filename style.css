@@ -5,6 +5,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 body {
     background-image: url(./img/northern-hemisphere-3591569_1280.jpg);    
     background-size: cover;
+    background-repeat: no-repeat;
     color: rgb(0, 21, 87);
     font-size: large;
 }
@@ -13,7 +14,7 @@ body {
     width: 800px;
     height: 820px;
     background: rgba(238,232,170, 0.7);
-    margin: 100px auto;
+    margin: 100px auto 0px;
     border-radius: 15px;
     padding: 10px;
 }
