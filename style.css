@@ -11,14 +11,14 @@ body {
 
 #site {
     width: 800px;
-    height: 800px;
+    height: 820px;
     background: rgba(238,232,170, 0.7);
     margin: 100px auto;
     border-radius: 15px;
     padding: 10px;
 }
 
-.container-atributos {
+.row {
     display: flex;
 }
 
@@ -55,4 +55,9 @@ nav a {
     padding: 5px;
     border-radius: 5px;
     font-size: 1em;
+    margin-top: 5px;
+}
+
+textarea {
+    background-image: url(./img/tela-de-texto.jpg);
 }
