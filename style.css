@@ -18,6 +18,19 @@ body {
     padding: 10px;
 }
 
+.container-atributos {
+    display: flex;
+}
+
+.container-magias label {
+    display: block;
+}
+
+.col {
+    width: 100%;
+    margin: 10px;
+}
+
 hr {
     border-color: bisque;
 }

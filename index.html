@@ -14,102 +14,156 @@
         </header>       
         <nav>
             <a href="index.html">Atributos</a>      
-            <a href="ficha">Ficha Completa</a>
+            <a href="ficha.html">Ficha Completa</a>
         </nav>
         <hr>
-        <form target="_blank" rel="noopener noreferrer" action="ficha.html" method="post">
-            <div class="linha">
-                <label for="name">Nome: </label>
-                <input type="text" name="Nome" id="nome" placeholder="Nome do seu personagem">
+        <div class="container-atributos">
+            <div class="col">
+                <form target="_blank" rel="noopener noreferrer" action="ficha.html" method="post">
+                    <div class="row">
+                        <label for="name">Nome: </label>
+                        <input type="text" name="Nome" id="nome" placeholder="Nome do seu personagem">
+                    </div>
+                    <div class="row">
+                        <label for="forca">Força: </label>
+                        <select name="forca" id="forca">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="destreza">Destreza: </label>
+                        <select name="destreza" id="destreza">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="constituicao">Constituição: </label>
+                        <select name="constituicao" id="constituicao">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="inteligencia">Inteligência: </label>
+                        <select name="inteligencia" id="inteligencia">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="sabedoria">Sabedoria: </label>
+                        <select name="sabedoria" id="sabedoria">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="carisma">Carisma: </label>
+                        <select name="carisma" id="carisma">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <input id="botao" type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
-            <div class="linha">
-                <label for="forca">Força: </label>
-                <select name="forca" id="forca">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
+            <div class="col">
+                <fieldset>
+                    <legend>Perícias</legend>
+                    <div>
+                        <input type="checkbox" name="atletismo" id="atletismo" value="atletismo">
+                        <label for="atletismo">Atletismo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="mobilidade" id="mobilidade" value="mobilidade">
+                        <label for="mobilidade">Mobilidade</label>
+                    </div>                
+                    <div>
+                        <input type="checkbox" name="furtividade" id="furtividade" value="furtividade">
+                        <label for="furtividade">Furtividade</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="arcanismo" id="arcanismo" value="arcanismo">
+                        <label for="arcanismo">Arcanismo</label>
+                    </div>                    
+                    <div>
+                        <input type="checkbox" name="historia" id="historia" value="historia">
+                        <label for="historia">História</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="natureza" id="natureza" value="natureza">
+                        <label for="natureza">Natureza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="religiao" id="religiao" value="religiao">
+                        <label for="religiao">Religião</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="percepcao" id="percepcao" value="percepcao">
+                        <label for="percepcao">Percepção</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="persuasao" id="persuasao" value="persuasao">
+                        <label for="persuasao">Persuasão</label>
+                    </div>                    
+                </fieldset>
             </div>
+        </div>
+        <hr>
+        <div class="container-magias">
             <div class="linha">
-                <label for="destreza">Destreza: </label>
-                <select name="destreza" id="destreza">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
-            </div>
-            <div class="linha">
-                <label for="constituicao">Constituição: </label>
-                <select name="constituicao" id="constituicao">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
-            </div>
-            <div class="linha">
-                <label for="inteligencia">Inteligência: </label>
-                <select name="inteligencia" id="inteligencia">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
-            </div>
-            <div class="linha">
-                <label for="sabedoria">Sabedoria: </label>
-                <select name="sabedoria" id="sabedoria">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
-            </div>
-            <div class="linha">
-                <label for="carisma">Carisma: </label>
-                <select name="carisma" id="carisma">
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                </select>
-            </div>
-            <div class="linha">
-                <input id="botao" type="submit" value="Enviar">
-            </div>
-        </form>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="Digite aqui"></textarea>
+            </div> 
+        </div>
     </div>
 </body>
 </html>
+
+<!-- futuramente lembrar de fazer linhas e colunas antes do container -->
